@@ -1,0 +1,22 @@
+Form:
+- Id: cuid
+- Title: string
+- createdAt: Date
+- radioFields: RadioField[]
+- textFields: TextField[]
+
+RadioField:
+- Id: cuid
+- Question: string
+- Option: Option[]
+- Answer: Option
+
+Option:
+- Id: cuid
+- Description: string
+- RadioField: RadioField
+
+TextField:
+- Id: cuid
+- Question: string
+- Answer: string
